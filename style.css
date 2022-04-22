@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@500&display=swap');
+
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width:2800px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #ffffff;
+    
+}
+.blox{
+    width: 2200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  
+}
+.logo{
+    width: 300px;
+}
+.blox_left{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 1200px;
+}
+.my_numbers,
+.your_koments
+{
+    margin-left:90px;
+    
+}
+
+
+.my_numbers,
+.time_works{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+    width: auto;
+}
+.my_numbers a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.time_text__bold,
+.number_text__bold{
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}
+.your_koments{
+    width: 350px;
+    height: 90px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: #01b4dc;
+    padding-top: 27px;
+    font-size: 26px;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+}
+.blox_black{
+    width:2800px;
+    height: 100px;
+    background-color: black;
+}
+main{
+    width: 2200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+main ul{
+    width: 1300px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.top_li{
+    top: -5px;
+    position: relative;
+}
+main ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.input_home{
+    position: relative;
+}
+.input_serch{
+    width: 580px;
+    height: 70px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 26px;
+    font-family: 'PT Sans', sans-serif;
+}
+.input_home svg {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+.img_close{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    
+    top: 15px;
+    margin-left: 5px;
+}
+.img_close::after{
+    content: "";
+    width: 20px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 15px;
+    right: 5px;
+}
+.img_close::before{
+    content: "";
+    width: 20px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transform: rotate(45deg);
+    top: 15px;
+    left: 5px;
+}
